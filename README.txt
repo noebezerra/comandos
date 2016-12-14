@@ -147,3 +147,13 @@ Typingd     - $ sudo npm install typings --global
   - Copiar um arquivo do container para o host
   $ docker cp <nome_container>:/caminho/no/container /caminho/no/host
   Exemplo: docker cp app1:/home/ec2-user/log.txt /logs
+
+  /************************
+  * Rract JS
+  *
+  *************************/
+  - Install:
+  $ sudo npm install -g create-react-app
+
+  - Criando projeto
+  $ create-react-app hello-world
