@@ -157,3 +157,28 @@ Typingd     - $ sudo npm install typings --global
 
   - Criando projeto
   $ create-react-app hello-world
+
+  /************************
+  * Ionic 2
+  *
+  *************************/
+  - Requisitos:
+  Java JDK (java -v , javac -v)
+  Android Studio
+  $ sudo nano /etc/profile
+  ANDROID_HOME=/home/user/Android/Sdk
+  PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+  export ANDROID_HOME
+  export PATH
+
+  - Install:
+  $ npm install -g ionic cordova
+
+  - Criar projeto
+  $ ionic start <nome_projeto>
+
+  - Extraindo projeto para uma plataforma
+  $ ionic platform add <android/ios>
+
+  - Construindo apk
+  $ ionic build android
