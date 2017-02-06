@@ -1,4 +1,18 @@
 /*******************
+* GitHub
+********************/
+
+- Iniciando Git
+$ git init
+
+- add
+$ git add .
+$ git add <nome arquivo>
+
+- commit
+$ git commmit -m "first"
+
+/*******************
 * Typescript2 + Angular 2
 *
 *********************/
@@ -176,9 +190,16 @@ Typingd     - $ sudo npm install typings --global
 
   - Criar projeto
   $ ionic start <nome_projeto>
+  $ ionic serve
 
   - Extraindo projeto para uma plataforma
   $ ionic platform add <android/ios>
 
   - Construindo apk
   $ ionic build android
+
+  - Provider
+  $ ionic g provider <service.provider>
+
+  - page
+  $ ionic g page <nomepage>
