@@ -1,9 +1,13 @@
 /*******************
 * GitHub
 ********************/
+fonte: http://rogerdudler.github.io/git-guide/index.pt_BR.html
 
 - Iniciando Git
 $ git init
+
+- clone
+$ git clone <repositorio>
 
 - add
 $ git add .
@@ -11,6 +15,9 @@ $ git add <nome arquivo>
 
 - commit
 $ git commmit -m "first"
+
+- push
+$ git push origin master
 
 /*******************
 * Typescript2 + Angular 2
