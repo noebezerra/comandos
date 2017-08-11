@@ -1,4 +1,14 @@
 /*******************
+* BitBucket
+********************/
+git clone <repositório>
+git add *
+git pull
+git commit
+git push
+
+
+/*******************
 * GitHub
 ********************/
 fonte: http://rogerdudler.github.io/git-guide/index.pt_BR.html
