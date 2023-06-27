@@ -9,7 +9,7 @@ git push
 
 
 /*******************
-* GitHub
+* Git
 ********************/
 fonte: http://rogerdudler.github.io/git-guide/index.pt_BR.html
 
@@ -19,15 +19,24 @@ $ git init
 - clone
 $ git clone <repositorio>
 
-- add
+- sobe alterações para a staging area
 $ git add .
 $ git add <nome arquivo>
 
-- commit
+- realiza novos commits
 $ git commmit -m "first"
+
+- substitui o commit anterior por um novo, mas aproveita as alterações dele
+$ git commit --amend
+
+- calcula a diferença entre as versões/alterações dos arquivos
+$ git diff
 
 - push
 $ git push origin master
+
+- listar os commits do repositório 
+$ git log
 
 /*******************
 * Typescript2 + Angular 2
