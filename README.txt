@@ -32,8 +32,11 @@ $ git commit --amend
 - calcula a diferença entre as versões/alterações dos arquivos
 $ git diff
 
-- push
-$ git push origin master
+- empurrar alterações locais para o origin
+$ git push
+$ git push origin main
+$ git push --force
+$ git push -f
 
 - listar os commits do repositório 
 $ git log
